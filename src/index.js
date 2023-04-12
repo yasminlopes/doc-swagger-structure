@@ -5,6 +5,9 @@ const swaggerSpec = require("./docs/swaggerConfig");
 
 const app = express();
 app.use(express.json());
+
+const userRoutes = require("./routes/usersRoutes");
+app.use("/api", userRoutes);
 app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 
 app.listen(config.port, () => {
