@@ -6,7 +6,7 @@ Para acessar a documentação, basta executar o projeto e acessar o endpoint htt
 
 Para ler mais sobre como desenvolver uma documentação objetiva em Node.js com Swagger, acesse meu artigo no Medium através do link abaixo:
 
-[link]
+[https://medium.com/@yasmin.lopes/swagger-e-clean-architecture-para-documenta%C3%A7%C3%A3o-em-node-js-1fb06ae001df]
 
 # Sobre
 
